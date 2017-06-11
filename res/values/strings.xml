@@ -33,6 +33,7 @@
     <string name="statusbar_general">General</string>
     <string name="button_settings">Button settings</string>
     <string name="traffic_settings">Traffic indicators</string>
+    <string name="recents_category">Recent Panel</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

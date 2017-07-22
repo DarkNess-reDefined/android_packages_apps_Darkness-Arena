@@ -30,6 +30,7 @@
 
     <!-- Fragments -->
     <string name="quick_settings_category">Quick Settings</string>
+    <string name="statusbar_general">General</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

@@ -26,6 +26,7 @@
     <string name="navigation_category">Navigation</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="panels_category">Panels</string>
+    <string name="misc_category">Miscellaneous</string> 
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

@@ -40,6 +40,7 @@ import com.dnd.arena.tabs.StatusBar;
 import com.dnd.arena.tabs.Navigation;
 import com.dnd.arena.tabs.Lockscreen;
 import com.dnd.arena.tabs.Panels;
+import com.dnd.arena.tabs.Misc;
 import com.dnd.arena.PagerSlidingTabStrip;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -103,6 +104,7 @@ public class MainSettings extends SettingsPreferenceFragment {
             frags[1] = new Navigation();
             frags[2] = new Lockscreen();
             frags[3] = new Panels();
+            frags[4] = new Misc();
         }
 
         @Override
@@ -127,7 +129,8 @@ public class MainSettings extends SettingsPreferenceFragment {
             getString(R.string.statusbar_category),
             getString(R.string.navigation_category),
             getString(R.string.lockscreen_category),
-            getString(R.string.panels_category)};
+            getString(R.string.panels_category),
+            getString(R.string.misc_category)};
         return titleString;
     }
 

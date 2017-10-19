@@ -21,4 +21,10 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceScreen
+        android:key="quick_settings"
+        android:fragment="com.dnd.arena.fragments.QuickSettings"
+        android:layout="@layout/preference_quick_settings"
+        android:title="@string/quick_settings_category" />
+
 </PreferenceScreen>
